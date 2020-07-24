@@ -144,4 +144,29 @@ img {
         margin: 0;
         padding: 0.05em 0.1em 0 0;
     }
+    /*main section sub-news*/
+    .main-section__sub-news {
+        padding: 1rem;
+    }
+    /*sub news img*/
+    /*sub news info header*/
+    #sub-news-info__header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0.5rem;
+        border-radius: .5rem;
+        background-color: #edd3c2;
+        margin: 1rem 0;
+    }
+    /*sub mains info header*/
+    .main-section__sub-news h1 {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+    .main-section__sub-news p {
+        margin: 1rem 0;
+    }
+    #sub-news-info-both-p {
+        padding: .1rem;
+    }
 }
