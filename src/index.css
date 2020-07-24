@@ -1,0 +1,28 @@
+/*google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*
+google fonts uses
+font-family: 'Noticia Text', serif;
+*/
+
+
+/*general styles config*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    color: black;
+    font-family: 'Noticia Text', serif;
+}
+
+img {
+    width: 100%;
+}
+
+@media screen and (min-width:320px) {}
