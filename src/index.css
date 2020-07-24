@@ -60,4 +60,41 @@ img {
     .headers-card i {
         color: red;
     }
+    /*main header*/
+    .main-header {
+        grid-column: 1;
+        grid-row: 1;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        padding: 1rem;
+    }
+    /*main-header__title*/
+    .main-header__title {
+        grid-row: 1;
+        text-align: center;
+    }
+    .main-header__title h1 {
+        font-size: 3rem;
+        border-bottom: .1rem solid black;
+    }
+    .main-header__info {
+        padding: .5rem;
+    }
+    .main-header__info p {
+        margin-top: .5rem;
+    }
+    /*In this project there are lot of borders around p elements, so I create this id to solve this problem */
+    #main-header__underline1,
+    #main-header__underline3 {
+        border-bottom: .1rem solid black;
+        margin-bottom: .5rem;
+    }
+    #main-header__underline2 {
+        border-top: .1rem solid black;
+    }
+    /*main header date*/
+    .main-header__date {
+        padding: .5rem;
+        margin-top: 2rem;
+    }
 }
