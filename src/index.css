@@ -97,4 +97,9 @@ img {
         padding: .5rem;
         margin-top: 2rem;
     }
+    /*main section*/
+    .main-section {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+    }
 }
