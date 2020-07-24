@@ -45,6 +45,7 @@ img {
     /*headers section*/
     .headers {
         grid-column: 2;
+        padding: 1rem;
     }
     .headers-card {
         padding: 1rem;
