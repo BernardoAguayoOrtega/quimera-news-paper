@@ -1,0 +1,23 @@
+{
+  "name": "responsive-course",
+  "version": "1.0.0",
+  "description": "Responsive design of news paper quimera",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BernardoAguayoOrtega/quimera-news-paper.git"
+  },
+  "keywords": [
+    "responsive",
+    "design"
+  ],
+  "author": "Bernardo Aguayo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BernardoAguayoOrtega/quimera-news-paper/issues"
+  },
+  "homepage": "https://github.com/BernardoAguayoOrtega/quimera-news-paper#readme"
+}
