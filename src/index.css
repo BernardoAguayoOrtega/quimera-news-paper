@@ -21,8 +21,42 @@ html {
     font-family: 'Noticia Text', serif;
 }
 
+body {
+    padding: 1rem;
+    background-color: #f7f5e0;
+}
+
 img {
     width: 100%;
 }
 
-@media screen and (min-width:320px) {}
+
+/*
+    this web has a focus mobile first
+    so I start with small mobile standards
+*/
+
+@media screen and (min-width:320px) {
+    /*header section*/
+    header {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /*headers section*/
+    .headers {
+        grid-column: 2;
+    }
+    .headers-card {
+        padding: 1rem;
+        border-bottom: .1rem solid black;
+    }
+    .headers-card h1 {
+        font-size: 1rem;
+    }
+    .headers-card p {
+        font-size: .8rem
+    }
+    .headers-card i {
+        color: red;
+    }
+}
