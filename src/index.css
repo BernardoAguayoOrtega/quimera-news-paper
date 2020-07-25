@@ -235,3 +235,35 @@ img {
         font-size: 1rem;
     }
 }
+
+
+/*medium mobile*/
+
+@media screen and (min-width:375px) {
+    /*general changes*/
+    html {
+        font-size: 11px;
+    }
+    /*main section main news*/
+    .main-section__main-news figure {
+        padding: 1.5rem;
+    }
+    /*main section sub news */
+    .main-section__sub-news figure {
+        padding: 1.7rem;
+    }
+    /*sub section*/
+    /*new 2*/
+    .news2 figure {
+        padding: 1.7rem;
+    }
+}
+
+
+/*large mobile*/
+
+@media screen and (min-width:452px) {
+    html {
+        font-size: 12px;
+    }
+}
